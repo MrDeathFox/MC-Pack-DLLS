@@ -1,8 +1,112 @@
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-color: gray;
-  min-height: 100%;
-  background-position: center;
+body {
+  background-color: #303539;
+  margin: 0;
+}
+
+body h1{
+  margin-top: 40px;
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1B1A20;
+  padding: 0 100px;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav p{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.topnav img{
+  width: 25px;
+  margin-top: 15px;
+  margin-right: 10px;
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+ background: #1B1A20;
+ width: 270px;
+ margin: 10px;
+ color: white;
+ border-radius: 15px;
+ border: 3px solid white;
+ transition: all 1s ease
+}
+
+.card-image{
+  height: 170px;
+  margin-bottom: 15px;
   background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.pack-1{
+  background-image: url(assets/gui_preview.PNG);
+}
+
+
+.card h2{
+  padding: 10px;
+}
+
+.card p{
+  padding: 10px;
+}
+
+.button {
+  background-color: #006E1F;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: block;
+  border-radius: 20px;
+  font-size: 19px;
+}
+
+.button i{
+  size: 100px;
+  margin-right: 8px;
+}
+
+.button:hover{
+  background-color: #016003;
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.03);
 }
