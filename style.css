@@ -81,6 +81,15 @@ body h1{
   padding: 10px;
 }
 
+.card h3{
+  font-size: 18px;
+  text-align: center;
+}
+
+.card h3 i{
+  padding: 3px;
+}
+
 .button {
   background-color: #006E1F;
   border: none;
