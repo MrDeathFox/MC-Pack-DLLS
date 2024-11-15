@@ -71,7 +71,11 @@ body h1{
 }
 
 .pack-1{
-  background-image: url(assets/gui_preview.PNG);
+  background-image: url(/assets/gui_preview.PNG);
+}
+
+.pack-2{
+  background-image: url(/assets/chatranks_preview.PNG);
 }
 
 
@@ -91,6 +95,11 @@ body h1{
 
 .card h3 i{
   padding: 3px;
+}
+
+.card .note{
+  margin-top: -5px;
+  font-size: 15px;
 }
 
 .button {
@@ -122,4 +131,15 @@ body h1{
 .card:hover{
   cursor: pointer;
   transform: scale(1.03);
+}
+
+.footer {
+  background-color: #1B1A20;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.copyright{
+  font-size: 17px;
 }
